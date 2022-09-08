@@ -1,0 +1,6 @@
+---
+  - name: httpd is there
+    hosts: localhost
+    tasks:
+      - name: ensure httpd is started
+        yum: name=httpd state=latest
