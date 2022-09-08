@@ -1,7 +1,6 @@
 ---
   - name: httpd is there
     hosts: all
-    become: sudo
     tasks:
       - name: ensure httpd is started
         yum: name=httpd state=latest
