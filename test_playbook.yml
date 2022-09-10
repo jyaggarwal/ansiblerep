@@ -1,5 +1,5 @@
 ---
-  - name: httpd is there
+ - name: httpd is there
     hosts: all
     tasks:
       - name: ensure httpd is started
