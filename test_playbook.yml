@@ -3,4 +3,4 @@
     hosts: all
     tasks:
       - name: ensure httpd is started
-        yum: name=httpd state=startedd
+        yum: name=httpd state=brokeeee
